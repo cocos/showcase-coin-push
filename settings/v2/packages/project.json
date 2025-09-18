@@ -1,0 +1,41 @@
+{
+  "__version__": "1.0.5",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "pushTouch"
+      },
+      {
+        "index": 2,
+        "name": "wall"
+      },
+      {
+        "index": 3,
+        "name": "goods"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 0,
+      "1": 0,
+      "2": 8,
+      "3": 28
+    },
+    "gravity": {
+      "y": -18
+    },
+    "defaultMaterial": "3eae4356-bcdf-4b88-8a1f-e43a8ddc9fa6"
+  },
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "custom_joint_texture_layouts": []
+}

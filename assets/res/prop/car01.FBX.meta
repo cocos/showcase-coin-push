@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d8fe77dc-b46b-47de-af2e-75b361421776",
+  "files": [],
+  "subMetas": {
+    "34917": {
+      "importer": "gltf-mesh",
+      "uuid": "d8fe77dc-b46b-47de-af2e-75b361421776@34917",
+      "displayName": "",
+      "id": "34917",
+      "name": "car01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2364
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "56a7c": {
+      "importer": "gltf-material",
+      "uuid": "d8fe77dc-b46b-47de-af2e-75b361421776@56a7c",
+      "displayName": "",
+      "id": "56a7c",
+      "name": "car01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1193d": {
+      "importer": "gltf-scene",
+      "uuid": "d8fe77dc-b46b-47de-af2e-75b361421776@1193d",
+      "displayName": "",
+      "id": "1193d",
+      "name": "car01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "d8fe77dc-b46b-47de-af2e-75b361421776@1193d",
+    "assetFinder": {
+      "meshes": [
+        "d8fe77dc-b46b-47de-af2e-75b361421776@34917"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "d8fe77dc-b46b-47de-af2e-75b361421776@56a7c"
+      ],
+      "scenes": [
+        "d8fe77dc-b46b-47de-af2e-75b361421776@1193d"
+      ]
+    },
+    "fbx": {
+      "preferLocalTimeSpan": false,
+      "smartMaterialEnabled": false,
+      "matchMeshNames": false
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}
